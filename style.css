@@ -16,8 +16,6 @@ body {
   padding: 20px;
 }
 
-/* MAIN */
-
 main {
   width: 550px;
   max-width: 100%;
@@ -34,8 +32,6 @@ main {
     0 25px 60px rgba(0, 0, 0, 0.45),
     0 0 35px rgba(20, 184, 166, 0.05);
 }
-
-/* HEADER */
 
 .header {
   display: flex;
@@ -71,8 +67,6 @@ main {
   margin-top: 4px;
 }
 
-/* TOGGLE */
-
 .toggle {
   display: flex;
   align-items: center;
@@ -104,8 +98,6 @@ main {
   background: rgba(20, 184, 166, 0.12);
 }
 
-/* CLOCK DISPLAY */
-
 .display {
   display: flex;
   justify-content: space-between;
@@ -136,8 +128,6 @@ main {
   color: #2dd4bf;
 }
 
-/* META */
-
 .meta {
   display: flex;
   flex-direction: column;
@@ -150,8 +140,6 @@ main {
   color: #94a3b8;
 }
 
-/* FOOTER */
-
 .foot {
   display: flex;
   justify-content: space-between;
@@ -163,8 +151,6 @@ main {
 .foot span:last-child {
   color: #2dd4bf;
 }
-
-/* RESPONSIVE */
 
 @media (max-width: 480px) {
   main {
